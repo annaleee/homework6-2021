@@ -1,6 +1,6 @@
 /* Answer for Question 3 */
 body{
-    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'Alegreya Sans SC', serif;
     background: #f1f1f1 url('../images/concrete_seamless.png');
 }
 /* Answer for Question 4 and 6 */
@@ -13,13 +13,12 @@ header{
 }
 /* Answer for Question 5 */
 a{
-    color: #0000EE;
+    color: blue;
 }
 /* Answer for Question 7 */
-.card > header{
+.card  header{
     background: #288088;
-    border-bottom: 2px solid #45ADAD ;
-    border-top: 2px solid #45ADAD ;
+    border: 2px solid #45ADAD ;
     padding:20px 0px;
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
@@ -33,7 +32,15 @@ a{
 }
 /* Answer for Question 9 */
 .card{
-   flex-basis: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 450px;
+}
+.nav_links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 /* Answer for Question 10 */
 .gallery>img{
