@@ -77,13 +77,13 @@ a{
     header{
         flex-direction: row;
         justify-content: space-between;
-        position: sticky;
     }
     .nav_links{
         display: flex;
         flex-direction: row;
     }
     body>header{
+        position: sticky;
         top: 0;
         right: 0;
         left: 0;
