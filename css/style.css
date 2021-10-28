@@ -8,8 +8,7 @@ header{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background: #fff;
-    border-bottom: 3px solid #50C7C7;
+    justify-content: center;
 }
 /* Answer for Question 5 */
 a{
@@ -56,16 +55,22 @@ a{
     justify-content: center;
 }
 /* Answer for Question 11 */
-@keyframes mymove {
-    0% {width: 50px;opacity: 0;}
-    100%{width: 425px;opacity: 1;}
-}
-
-.logo{
+#logo{
     animation-name: mymove;
     animation-duration: 5s;
     animation-iteration-count: 1;
 
+}
+
+@keyframes mymove {
+    from {
+        width: 50px;
+        opacity: 0;
+      }
+      to {
+        width: 425px;
+        opacity: 1;
+      }
 }
 /* Answer for Question 12 */
 @media screen and (min-width:850px) {
@@ -74,8 +79,6 @@ a{
         justify-content: space-between;
         position: sticky;
         top: 0;
-        min-height: 75px;
-        width: 100%;
     }
     .nav_links{
         display: flex;
