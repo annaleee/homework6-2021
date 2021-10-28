@@ -6,8 +6,8 @@ body{
 /* Answer for Question 4 and 6 */
 header{
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 /* Answer for Question 5 */
@@ -78,11 +78,15 @@ a{
         flex-direction: row;
         justify-content: space-between;
         position: sticky;
-        top: 0;
     }
     .nav_links{
         display: flex;
         flex-direction: row;
+    }
+    body>header{
+        top: 0;
+        right: 0;
+        left: 0;
     }
     /* Answer for Question 13 */
     .card{
@@ -91,6 +95,7 @@ a{
     .card header{
         position: static;
     }
+    
 }
 /* Answer for Question 14 */
 @media (prefers-reduced-motion:reduce){
